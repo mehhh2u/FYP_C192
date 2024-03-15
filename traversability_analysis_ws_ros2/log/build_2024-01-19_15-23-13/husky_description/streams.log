@@ -1,0 +1,57 @@
+[0.089s] Invoking command in '/home/charlie/traversability_analysis_ws_ros2/build/husky_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/home/charlie/traversability_analysis_ws_ros2/install/dataset_generation_training:/opt/ros/foxy /usr/bin/cmake --build /home/charlie/traversability_analysis_ws_ros2/build/husky_description -- -j16 -l16
+[0.980s] Invoked command in '/home/charlie/traversability_analysis_ws_ros2/build/husky_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/home/charlie/traversability_analysis_ws_ros2/install/dataset_generation_training:/opt/ros/foxy /usr/bin/cmake --build /home/charlie/traversability_analysis_ws_ros2/build/husky_description -- -j16 -l16
+[1.020s] Invoking command in '/home/charlie/traversability_analysis_ws_ros2/build/husky_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/home/charlie/traversability_analysis_ws_ros2/install/dataset_generation_training:/opt/ros/foxy /usr/bin/cmake --install /home/charlie/traversability_analysis_ws_ros2/build/husky_description
+[1.029s] -- Install configuration: ""
+[1.030s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/launch
+[1.030s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/launch/description.launch.py
+[1.030s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/launch/description.launch
+[1.030s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes
+[1.030s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/top_plate.dae
+[1.030s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/large_top_plate_collision.stl
+[1.031s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/top_chassis.dae
+[1.031s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/top_chassis.stl
+[1.031s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/top_plate.stl
+[1.031s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/bumper.dae
+[1.031s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/wheel.stl
+[1.032s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/wheel.dae
+[1.032s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/user_rail.dae
+[1.035s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/base_link.dae
+[1.036s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/accessories
+[1.039s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/accessories/300_mm_sensor_arch.dae
+[1.039s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/accessories/lidar_mount.stl
+[1.039s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/accessories/lms1xx_mount.stl
+[1.039s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/accessories/510_mm_sensor_arch.dae
+[1.039s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/accessories/510_mm_sensor_arch.stl
+[1.040s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/accessories/lms1xx_mount.dae
+[1.041s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/accessories/300_mm_sensor_arch.stl
+[1.043s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/bumper_extension.dae
+[1.043s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/user_rail.stl
+[1.043s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/large_top_plate.dae
+[1.043s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/meshes/base_link.stl
+[1.044s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/urdf
+[1.044s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/urdf/empty.urdf
+[1.044s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/urdf/husky_macro.urdf.xacro
+[1.047s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/urdf/husky.urdf.xacro
+[1.047s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/urdf/decorations.urdf.xacro
+[1.048s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/urdf/accessories
+[1.049s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/urdf/accessories/intel_realsense.urdf.xacro
+[1.049s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/urdf/accessories/sick_lms1xx_mount.urdf.xacro
+[1.049s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/urdf/accessories/sensor_arch.urdf.xacro
+[1.049s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/urdf/wheel.urdf.xacro
+[1.049s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/ament_index/resource_index/package_run_dependencies/husky_description
+[1.049s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/ament_index/resource_index/parent_prefix_path/husky_description
+[1.049s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/environment/ament_prefix_path.sh
+[1.049s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/environment/ament_prefix_path.dsv
+[1.050s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/environment/path.sh
+[1.050s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/environment/path.dsv
+[1.050s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/local_setup.bash
+[1.050s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/local_setup.sh
+[1.050s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/local_setup.zsh
+[1.050s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/local_setup.dsv
+[1.050s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/package.dsv
+[1.050s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/ament_index/resource_index/packages/husky_description
+[1.050s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.050s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/cmake/husky_descriptionConfig.cmake
+[1.050s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/cmake/husky_descriptionConfig-version.cmake
+[1.050s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_description/share/husky_description/package.xml
+[1.051s] Invoked command in '/home/charlie/traversability_analysis_ws_ros2/build/husky_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/home/charlie/traversability_analysis_ws_ros2/install/dataset_generation_training:/opt/ros/foxy /usr/bin/cmake --install /home/charlie/traversability_analysis_ws_ros2/build/husky_description

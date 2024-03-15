@@ -1,0 +1,2521 @@
+
+<?xml version='1.0'?>
+<sdf version='1.6'>
+  <world name='default'>
+    <light name='sun' type='directional'>
+      <cast_shadows>1</cast_shadows>
+      <pose>0 0 50 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>-0.5 0.5 -1</direction>
+      <attenuation>
+        <range>500</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <ambient>0.4 0.4 0.4 1</ambient>
+    </light>
+    
+<model name='step_0_0'>
+  <static>true</static>
+  <pose>-9.0 -9.0 0.10037303684798088 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.20074607369596176</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.20074607369596176</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_0_1'>
+  <static>true</static>
+  <pose>-9.0 -7.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_0_2'>
+  <static>true</static>
+  <pose>-9.0 -5.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_0_3'>
+  <static>true</static>
+  <pose>-9.0 -3.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_0_4'>
+  <static>true</static>
+  <pose>-9.0 -1.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_0_5'>
+  <static>true</static>
+  <pose>-9.0 1.0 0.16010938551985915 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.3202187710397183</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.3202187710397183</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_0_6'>
+  <static>true</static>
+  <pose>-9.0 3.0 0.2469286984735154 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.4938573969470308</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.4938573969470308</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_0_7'>
+  <static>true</static>
+  <pose>-9.0 5.0 0.2935187337520725 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.587037467504145</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.587037467504145</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_0_8'>
+  <static>true</static>
+  <pose>-9.0 7.0 0.13311160754476217 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.26622321508952435</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.26622321508952435</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_0_9'>
+  <static>true</static>
+  <pose>-9.0 9.0 0.3322581530667359 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.6645163061334718</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.6645163061334718</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_1_0'>
+  <static>true</static>
+  <pose>-7.0 -9.0 0.1741225995129762 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.3482451990259524</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.3482451990259524</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_1_1'>
+  <static>true</static>
+  <pose>-7.0 -7.0 0.14295892030048302 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.28591784060096603</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.28591784060096603</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_1_2'>
+  <static>true</static>
+  <pose>-7.0 -5.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_1_3'>
+  <static>true</static>
+  <pose>-7.0 -3.0 0.2479601488900408 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.4959202977800816</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.4959202977800816</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_1_4'>
+  <static>true</static>
+  <pose>-7.0 -1.0 0.3132514967745457 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.6265029935490914</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.6265029935490914</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_1_5'>
+  <static>true</static>
+  <pose>-7.0 1.0 0.2554811889350795 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.510962377870159</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.510962377870159</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_1_6'>
+  <static>true</static>
+  <pose>-7.0 3.0 0.3179396779265873 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.6358793558531746</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.6358793558531746</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_1_7'>
+  <static>true</static>
+  <pose>-7.0 5.0 0.49630573462964633 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.9926114692592927</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.9926114692592927</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_1_8'>
+  <static>true</static>
+  <pose>-7.0 7.0 0.5938424198537917 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.1876848397075834</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.1876848397075834</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_1_9'>
+  <static>true</static>
+  <pose>-7.0 9.0 0.5006142654766133 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.0012285309532265</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.0012285309532265</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_2_0'>
+  <static>true</static>
+  <pose>-5.0 -9.0 0.588424477442824 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.176848954885648</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.176848954885648</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_2_1'>
+  <static>true</static>
+  <pose>-5.0 -7.0 0.7520871289018121 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.5041742578036241</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.5041742578036241</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_2_2'>
+  <static>true</static>
+  <pose>-5.0 -5.0 0.5826700472966997 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.1653400945933994</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.1653400945933994</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_2_3'>
+  <static>true</static>
+  <pose>-5.0 -3.0 0.549141184022937 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.098282368045874</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.098282368045874</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_2_4'>
+  <static>true</static>
+  <pose>-5.0 -1.0 0.5101402869158365 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.020280573831673</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.020280573831673</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_2_5'>
+  <static>true</static>
+  <pose>-5.0 1.0 0.39589417468506444 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.7917883493701289</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.7917883493701289</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_2_6'>
+  <static>true</static>
+  <pose>-5.0 3.0 0.22069750829412818 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.44139501658825636</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.44139501658825636</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_2_7'>
+  <static>true</static>
+  <pose>-5.0 5.0 0.18690729227968875 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.3738145845593775</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.3738145845593775</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_2_8'>
+  <static>true</static>
+  <pose>-5.0 7.0 0.34378119925814 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.68756239851628</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.68756239851628</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_2_9'>
+  <static>true</static>
+  <pose>-5.0 9.0 0.4624541513268831 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.9249083026537662</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.9249083026537662</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_3_0'>
+  <static>true</static>
+  <pose>-3.0 -9.0 0.4306981505141231 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.8613963010282462</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.8613963010282462</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_3_1'>
+  <static>true</static>
+  <pose>-3.0 -7.0 0.36364714286797595 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.7272942857359519</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.7272942857359519</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_3_2'>
+  <static>true</static>
+  <pose>-3.0 -5.0 0.18750400845685977 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.37500801691371954</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.37500801691371954</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_3_3'>
+  <static>true</static>
+  <pose>-3.0 -3.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_3_4'>
+  <static>true</static>
+  <pose>-3.0 -1.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_3_5'>
+  <static>true</static>
+  <pose>-3.0 1.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_3_6'>
+  <static>true</static>
+  <pose>-3.0 3.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_3_7'>
+  <static>true</static>
+  <pose>-3.0 5.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_3_8'>
+  <static>true</static>
+  <pose>-3.0 7.0 0.21532615908947206 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.4306523181789441</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.4306523181789441</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_3_9'>
+  <static>true</static>
+  <pose>-3.0 9.0 0.39644618919562646 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.7928923783912529</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.7928923783912529</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_4_0'>
+  <static>true</static>
+  <pose>-1.0 -9.0 0.4648128292921555 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.929625658584311</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.929625658584311</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_4_1'>
+  <static>true</static>
+  <pose>-1.0 -7.0 0.5530202301339904 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.1060404602679808</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.1060404602679808</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_4_2'>
+  <static>true</static>
+  <pose>-1.0 -5.0 0.37155696417180656 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.7431139283436131</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.7431139283436131</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_4_3'>
+  <static>true</static>
+  <pose>-1.0 -3.0 0.21202643135759158 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.42405286271518317</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.42405286271518317</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_4_4'>
+  <static>true</static>
+  <pose>-1.0 -1.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_4_5'>
+  <static>true</static>
+  <pose>-1.0 1.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_4_6'>
+  <static>true</static>
+  <pose>-1.0 3.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_4_7'>
+  <static>true</static>
+  <pose>-1.0 5.0 0.07319278753882706 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.14638557507765412</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.14638557507765412</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_4_8'>
+  <static>true</static>
+  <pose>-1.0 7.0 0.07139704010192989 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.14279408020385978</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.14279408020385978</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_4_9'>
+  <static>true</static>
+  <pose>-1.0 9.0 0.2398445551078759 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.4796891102157518</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.4796891102157518</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_5_0'>
+  <static>true</static>
+  <pose>1.0 -9.0 0.16983328679694779 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.33966657359389557</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.33966657359389557</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_5_1'>
+  <static>true</static>
+  <pose>1.0 -7.0 0.15942939556661712 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.31885879113323423</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.31885879113323423</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_5_2'>
+  <static>true</static>
+  <pose>1.0 -5.0 0.1640534203736352 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.3281068407472704</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.3281068407472704</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_5_3'>
+  <static>true</static>
+  <pose>1.0 -3.0 0.2706400739708791 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.5412801479417582</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.5412801479417582</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_5_4'>
+  <static>true</static>
+  <pose>1.0 -1.0 0.07289518165721987 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.14579036331443973</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.14579036331443973</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_5_5'>
+  <static>true</static>
+  <pose>1.0 1.0 0.06797977280102377 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.13595954560204754</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.13595954560204754</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_5_6'>
+  <static>true</static>
+  <pose>1.0 3.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_5_7'>
+  <static>true</static>
+  <pose>1.0 5.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_5_8'>
+  <static>true</static>
+  <pose>1.0 7.0 0.24328108319499725 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.4865621663899945</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.4865621663899945</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_5_9'>
+  <static>true</static>
+  <pose>1.0 9.0 0.31224262629940686 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.6244852525988137</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.6244852525988137</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_6_0'>
+  <static>true</static>
+  <pose>3.0 -9.0 0.23634122553147008 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.47268245106294016</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.47268245106294016</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_6_1'>
+  <static>true</static>
+  <pose>3.0 -7.0 0.1831037227277895 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.366207445455579</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.366207445455579</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_6_2'>
+  <static>true</static>
+  <pose>3.0 -5.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_6_3'>
+  <static>true</static>
+  <pose>3.0 -3.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_6_4'>
+  <static>true</static>
+  <pose>3.0 -1.0 0.22458137971850828 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.44916275943701656</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.44916275943701656</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_6_5'>
+  <static>true</static>
+  <pose>3.0 1.0 0.1743039177932215 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.348607835586443</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.348607835586443</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_6_6'>
+  <static>true</static>
+  <pose>3.0 3.0 0.12499424452164193 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.24998848904328386</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.24998848904328386</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_6_7'>
+  <static>true</static>
+  <pose>3.0 5.0 0.2683013838226719 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.5366027676453438</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.5366027676453438</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_6_8'>
+  <static>true</static>
+  <pose>3.0 7.0 0.14598074607071682 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.29196149214143363</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.29196149214143363</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_6_9'>
+  <static>true</static>
+  <pose>3.0 9.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_7_0'>
+  <static>true</static>
+  <pose>5.0 -9.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_7_1'>
+  <static>true</static>
+  <pose>5.0 -7.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_7_2'>
+  <static>true</static>
+  <pose>5.0 -5.0 0.14580156140363326 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.2916031228072665</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.2916031228072665</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_7_3'>
+  <static>true</static>
+  <pose>5.0 -3.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_7_4'>
+  <static>true</static>
+  <pose>5.0 -1.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_7_5'>
+  <static>true</static>
+  <pose>5.0 1.0 0.10252732673593835 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.2050546534718767</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.2050546534718767</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_7_6'>
+  <static>true</static>
+  <pose>5.0 3.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_7_7'>
+  <static>true</static>
+  <pose>5.0 5.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_7_8'>
+  <static>true</static>
+  <pose>5.0 7.0 0.05 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.1</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_7_9'>
+  <static>true</static>
+  <pose>5.0 9.0 0.22828382048257206 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.45656764096514413</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.45656764096514413</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_8_0'>
+  <static>true</static>
+  <pose>7.0 -9.0 0.3659399118656861 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.7318798237313722</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.7318798237313722</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_8_1'>
+  <static>true</static>
+  <pose>7.0 -7.0 0.4466961561485728 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.8933923122971456</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.8933923122971456</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_8_2'>
+  <static>true</static>
+  <pose>7.0 -5.0 0.3441300503464565 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.688260100692913</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.688260100692913</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_8_3'>
+  <static>true</static>
+  <pose>7.0 -3.0 0.43009962169594584 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.8601992433918917</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.8601992433918917</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_8_4'>
+  <static>true</static>
+  <pose>7.0 -1.0 0.31637075487421484 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.6327415097484297</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.6327415097484297</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_8_5'>
+  <static>true</static>
+  <pose>7.0 1.0 0.4640506576103878 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.9281013152207755</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.9281013152207755</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_8_6'>
+  <static>true</static>
+  <pose>7.0 3.0 0.5193728346603403 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.0387456693206807</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.0387456693206807</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_8_7'>
+  <static>true</static>
+  <pose>7.0 5.0 0.716726352338579 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.433452704677158</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.433452704677158</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_8_8'>
+  <static>true</static>
+  <pose>7.0 7.0 0.70540791418967 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.41081582837934</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.41081582837934</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_8_9'>
+  <static>true</static>
+  <pose>7.0 9.0 0.6986046107667506 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.3972092215335012</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.3972092215335012</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_9_0'>
+  <static>true</static>
+  <pose>9.0 -9.0 0.8743786500156663 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.7487573000313326</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.7487573000313326</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_9_1'>
+  <static>true</static>
+  <pose>9.0 -7.0 0.9183092754102062 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.8366185508204125</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.8366185508204125</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_9_2'>
+  <static>true</static>
+  <pose>9.0 -5.0 0.7817701499526026 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.5635402999052053</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.5635402999052053</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_9_3'>
+  <static>true</static>
+  <pose>9.0 -3.0 0.7202639786128698 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.4405279572257397</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.4405279572257397</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_9_4'>
+  <static>true</static>
+  <pose>9.0 -1.0 0.7870567075783685 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.574113415156737</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.574113415156737</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_9_5'>
+  <static>true</static>
+  <pose>9.0 1.0 0.6499405325653504 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.299881065130701</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.299881065130701</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_9_6'>
+  <static>true</static>
+  <pose>9.0 3.0 0.6075200440106453 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.2150400880212906</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.2150400880212906</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_9_7'>
+  <static>true</static>
+  <pose>9.0 5.0 0.4182925235497118 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.8365850470994236</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.8365850470994236</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.5 0.7 0.9 1</ambient>
+        <diffuse>0.5 0.7 0.9 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_9_8'>
+  <static>true</static>
+  <pose>9.0 7.0 0.3374860754060554 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 0.6749721508121108</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 0.6749721508121108</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+<model name='step_9_9'>
+  <static>true</static>
+  <pose>9.0 9.0 0.5018709369359597 0 0 0</pose>
+  <link name='link'>
+    <collision name='collision'>
+      <geometry>
+        <box>
+          <size>2 2 1.0037418738719195</size>
+        </box>
+      </geometry>
+    </collision>
+    <visual name='visual'>
+      <geometry>
+        <box>
+          <size>2 2 1.0037418738719195</size>
+        </box>
+      </geometry>
+      <material>
+        <ambient>0.6 0.8 1.0 1</ambient>
+        <diffuse>0.6 0.8 1.0 1</diffuse>
+      </material>
+    </visual>
+  </link>
+</model>
+
+  </world>
+</sdf>

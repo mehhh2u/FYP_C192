@@ -1,0 +1,119 @@
+[0.038s] Invoking command in '/home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/home/charlie/traversability_analysis_ws_ros2/install/dataset_generation_training:/opt/ros/foxy /usr/bin/cmake --build /home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator_interface -- -j16 -l16
+[0.652s] [  3%] Built target gazebo_map_creator_interface__cpp
+[0.652s] [ 12%] Built target gazebo_map_creator_interface__rosidl_generator_c
+[0.652s] [ 22%] Built target gazebo_map_creator_interface__rosidl_typesupport_cpp
+[0.652s] [ 32%] Built target gazebo_map_creator_interface__rosidl_typesupport_c
+[0.652s] [ 41%] Built target gazebo_map_creator_interface__rosidl_typesupport_introspection_c
+[0.652s] [ 51%] Built target gazebo_map_creator_interface__rosidl_typesupport_fastrtps_cpp
+[0.652s] [ 61%] Built target gazebo_map_creator_interface__rosidl_typesupport_introspection_cpp
+[0.652s] [ 70%] Built target gazebo_map_creator_interface__rosidl_typesupport_fastrtps_c
+[0.652s] [ 70%] Built target gazebo_map_creator_interface
+[0.652s] [ 74%] Built target gazebo_map_creator_interface__py
+[0.652s] [ 80%] Built target gazebo_map_creator_interface__python
+[0.653s] [100%] Built target gazebo_map_creator_interface__rosidl_typesupport_c__pyext
+[0.653s] [100%] Built target gazebo_map_creator_interface__rosidl_typesupport_introspection_c__pyext
+[0.653s] [100%] Built target gazebo_map_creator_interface__rosidl_typesupport_fastrtps_c__pyext
+[0.656s] Invoked command in '/home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/home/charlie/traversability_analysis_ws_ros2/install/dataset_generation_training:/opt/ros/foxy /usr/bin/cmake --build /home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator_interface -- -j16 -l16
+[0.709s] Invoking command in '/home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/home/charlie/traversability_analysis_ws_ros2/install/dataset_generation_training:/opt/ros/foxy /usr/bin/cmake --install /home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator_interface
+[0.715s] -- Install configuration: ""
+[0.715s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/ament_index/resource_index/rosidl_interfaces/gazebo_map_creator_interface
+[0.716s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface
+[0.716s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/msg
+[0.716s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/msg/rosidl_generator_c__visibility_control.h
+[0.716s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv
+[0.716s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/map_request.h
+[0.716s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail
+[0.716s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail/map_request__functions.c
+[0.717s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail/map_request__struct.h
+[0.717s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail/map_request__type_support.h
+[0.717s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail/map_request__functions.h
+[0.717s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/environment/library_path.sh
+[0.717s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/environment/library_path.dsv
+[0.717s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_generator_c.so
+[0.717s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface
+[0.717s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/msg
+[0.717s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.717s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv
+[0.717s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail
+[0.717s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail/map_request__rosidl_typesupport_fastrtps_c.h
+[0.717s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_typesupport_fastrtps_c.so
+[0.717s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface
+[0.717s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/msg
+[0.717s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.718s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv
+[0.718s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail
+[0.718s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail/map_request__rosidl_typesupport_fastrtps_cpp.hpp
+[0.718s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail/dds_fastrtps
+[0.718s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_typesupport_fastrtps_cpp.so
+[0.718s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface
+[0.718s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/msg
+[0.718s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.718s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv
+[0.718s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail
+[0.718s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail/map_request__type_support.c
+[0.718s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail/map_request__rosidl_typesupport_introspection_c.h
+[0.718s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_typesupport_introspection_c.so
+[0.718s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_typesupport_c.so
+[0.718s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface
+[0.718s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv
+[0.718s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/map_request.hpp
+[0.718s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail
+[0.722s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail/map_request__traits.hpp
+[0.726s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail/map_request__builder.hpp
+[0.726s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail/map_request__struct.hpp
+[0.726s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface
+[0.726s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv
+[0.726s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail
+[0.726s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail/map_request__rosidl_typesupport_introspection_cpp.hpp
+[0.727s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/include/gazebo_map_creator_interface/srv/detail/map_request__type_support.cpp
+[0.727s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_typesupport_introspection_cpp.so
+[0.727s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__rosidl_typesupport_cpp.so
+[0.727s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/environment/pythonpath.sh
+[0.727s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/environment/pythonpath.dsv
+[0.727s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/python3.8/site-packages/gazebo_map_creator_interface/__init__.py
+[0.744s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/python3.8/site-packages/gazebo_map_creator_interface/srv
+[0.744s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/python3.8/site-packages/gazebo_map_creator_interface/srv/_map_request.py
+[0.744s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/python3.8/site-packages/gazebo_map_creator_interface/srv/__init__.py
+[0.744s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/python3.8/site-packages/gazebo_map_creator_interface/srv/_map_request_s.c
+[0.744s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/python3.8/site-packages/gazebo_map_creator_interface/gazebo_map_creator_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.744s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/python3.8/site-packages/gazebo_map_creator_interface/gazebo_map_creator_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.744s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/python3.8/site-packages/gazebo_map_creator_interface/gazebo_map_creator_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.744s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/libgazebo_map_creator_interface__python.so
+[0.745s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/srv/MapRequest.idl
+[0.745s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/srv/MapRequest.srv
+[0.745s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/srv/MapRequest_Request.msg
+[0.745s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/srv/MapRequest_Response.msg
+[0.745s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/ament_index/resource_index/package_run_dependencies/gazebo_map_creator_interface
+[0.745s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/ament_index/resource_index/parent_prefix_path/gazebo_map_creator_interface
+[0.745s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/environment/ament_prefix_path.sh
+[0.745s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/environment/ament_prefix_path.dsv
+[0.745s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/environment/path.sh
+[0.745s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/environment/path.dsv
+[0.745s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/local_setup.bash
+[0.745s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/local_setup.sh
+[0.745s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/local_setup.zsh
+[0.745s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/local_setup.dsv
+[0.745s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/package.dsv
+[0.745s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/ament_index/resource_index/packages/gazebo_map_creator_interface
+[0.745s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interface__rosidl_generator_cExport.cmake
+[0.745s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interface__rosidl_generator_cExport-noconfig.cmake
+[0.746s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interface__rosidl_typesupport_introspection_cExport.cmake
+[0.746s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.746s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interface__rosidl_typesupport_cExport.cmake
+[0.746s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interface__rosidl_typesupport_cExport-noconfig.cmake
+[0.746s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interface__rosidl_generator_cppExport.cmake
+[0.746s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interface__rosidl_typesupport_introspection_cppExport.cmake
+[0.746s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.746s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interface__rosidl_typesupport_cppExport.cmake
+[0.746s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[0.746s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/rosidl_cmake-extras.cmake
+[0.746s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.746s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.746s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/ament_cmake_export_targets-extras.cmake
+[0.746s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.746s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.746s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.746s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interfaceConfig.cmake
+[0.746s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake/gazebo_map_creator_interfaceConfig-version.cmake
+[0.746s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/package.xml
+[0.790s] Invoked command in '/home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/home/charlie/traversability_analysis_ws_ros2/install/dataset_generation_training:/opt/ros/foxy /usr/bin/cmake --install /home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator_interface

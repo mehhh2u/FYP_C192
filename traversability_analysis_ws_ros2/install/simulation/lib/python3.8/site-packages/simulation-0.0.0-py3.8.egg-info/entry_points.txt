@@ -1,0 +1,2 @@
+[console_scripts]
+simulation_data_collection = simulation.simulation_data_collection:main

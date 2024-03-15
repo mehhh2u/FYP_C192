@@ -1,0 +1,2 @@
+[console_scripts]
+evaluation = evaluation.evaluation:main

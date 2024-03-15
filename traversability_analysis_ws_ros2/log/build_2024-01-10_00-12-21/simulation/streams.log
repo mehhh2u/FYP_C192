@@ -1,0 +1,28 @@
+[1.146s] Invoking command in '/home/charlie/traversability_analysis_ws_ros2/src/simulation': PYTHONPATH=/home/charlie/traversability_analysis_ws_ros2/build/simulation/prefix_override:/home/charlie/traversability_analysis_ws_ros2/install/simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simulation build --build-base /home/charlie/traversability_analysis_ws_ros2/build/simulation/build install --record /home/charlie/traversability_analysis_ws_ros2/build/simulation/install.log --install-scripts $base/lib/simulation --single-version-externally-managed
+[1.380s] /home/charlie/.local/lib/python3.8/site-packages/setuptools/dist.py:770: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.380s]   warnings.warn(
+[1.460s] running egg_info
+[1.472s] writing ../../build/simulation/simulation.egg-info/PKG-INFO
+[1.472s] writing dependency_links to ../../build/simulation/simulation.egg-info/dependency_links.txt
+[1.472s] writing entry points to ../../build/simulation/simulation.egg-info/entry_points.txt
+[1.472s] writing requirements to ../../build/simulation/simulation.egg-info/requires.txt
+[1.472s] writing top-level names to ../../build/simulation/simulation.egg-info/top_level.txt
+[1.496s] reading manifest file '../../build/simulation/simulation.egg-info/SOURCES.txt'
+[1.497s] writing manifest file '../../build/simulation/simulation.egg-info/SOURCES.txt'
+[1.497s] running build
+[1.497s] running build_py
+[1.497s] copying simulation/simulation_data_collection.py -> /home/charlie/traversability_analysis_ws_ros2/build/simulation/build/lib/simulation
+[1.497s] running install
+[1.497s] /home/charlie/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.497s]   warnings.warn(
+[1.501s] running install_lib
+[1.512s] copying /home/charlie/traversability_analysis_ws_ros2/build/simulation/build/lib/simulation/simulation_data_collection.py -> /home/charlie/traversability_analysis_ws_ros2/install/simulation/lib/python3.8/site-packages/simulation
+[1.513s] byte-compiling /home/charlie/traversability_analysis_ws_ros2/install/simulation/lib/python3.8/site-packages/simulation/simulation_data_collection.py to simulation_data_collection.cpython-38.pyc
+[1.514s] running install_data
+[1.526s] running install_egg_info
+[1.538s] removing '/home/charlie/traversability_analysis_ws_ros2/install/simulation/lib/python3.8/site-packages/simulation-0.0.0-py3.8.egg-info' (and everything under it)
+[1.538s] Copying ../../build/simulation/simulation.egg-info to /home/charlie/traversability_analysis_ws_ros2/install/simulation/lib/python3.8/site-packages/simulation-0.0.0-py3.8.egg-info
+[1.538s] running install_scripts
+[1.583s] Installing simulation_data_collection script to /home/charlie/traversability_analysis_ws_ros2/install/simulation/lib/simulation
+[1.583s] writing list of installed files to '/home/charlie/traversability_analysis_ws_ros2/build/simulation/install.log'
+[1.615s] Invoked command in '/home/charlie/traversability_analysis_ws_ros2/src/simulation' returned '0': PYTHONPATH=/home/charlie/traversability_analysis_ws_ros2/build/simulation/prefix_override:/home/charlie/traversability_analysis_ws_ros2/install/simulation/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/simulation build --build-base /home/charlie/traversability_analysis_ws_ros2/build/simulation/build install --record /home/charlie/traversability_analysis_ws_ros2/build/simulation/install.log --install-scripts $base/lib/simulation --single-version-externally-managed

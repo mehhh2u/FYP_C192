@@ -1,0 +1,3 @@
+source;share/gazebo_map_creator/environment/ament_prefix_path.sh
+source;share/gazebo_map_creator/environment/library_path.sh
+source;share/gazebo_map_creator/environment/path.sh

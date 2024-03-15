@@ -1,0 +1,36 @@
+running egg_info
+creating ../../build/evaluation/evaluation.egg-info
+writing ../../build/evaluation/evaluation.egg-info/PKG-INFO
+writing dependency_links to ../../build/evaluation/evaluation.egg-info/dependency_links.txt
+writing entry points to ../../build/evaluation/evaluation.egg-info/entry_points.txt
+writing requirements to ../../build/evaluation/evaluation.egg-info/requires.txt
+writing top-level names to ../../build/evaluation/evaluation.egg-info/top_level.txt
+writing manifest file '../../build/evaluation/evaluation.egg-info/SOURCES.txt'
+reading manifest file '../../build/evaluation/evaluation.egg-info/SOURCES.txt'
+writing manifest file '../../build/evaluation/evaluation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/charlie/traversability_analysis_ws_ros2/build/evaluation/build
+creating /home/charlie/traversability_analysis_ws_ros2/build/evaluation/build/lib
+creating /home/charlie/traversability_analysis_ws_ros2/build/evaluation/build/lib/evaluation
+copying evaluation/evaluation.py -> /home/charlie/traversability_analysis_ws_ros2/build/evaluation/build/lib/evaluation
+copying evaluation/__init__.py -> /home/charlie/traversability_analysis_ws_ros2/build/evaluation/build/lib/evaluation
+running install
+running install_lib
+creating /home/charlie/traversability_analysis_ws_ros2/install/evaluation/lib/python3.8/site-packages/evaluation
+copying /home/charlie/traversability_analysis_ws_ros2/build/evaluation/build/lib/evaluation/evaluation.py -> /home/charlie/traversability_analysis_ws_ros2/install/evaluation/lib/python3.8/site-packages/evaluation
+copying /home/charlie/traversability_analysis_ws_ros2/build/evaluation/build/lib/evaluation/__init__.py -> /home/charlie/traversability_analysis_ws_ros2/install/evaluation/lib/python3.8/site-packages/evaluation
+byte-compiling /home/charlie/traversability_analysis_ws_ros2/install/evaluation/lib/python3.8/site-packages/evaluation/evaluation.py to evaluation.cpython-38.pyc
+byte-compiling /home/charlie/traversability_analysis_ws_ros2/install/evaluation/lib/python3.8/site-packages/evaluation/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/charlie/traversability_analysis_ws_ros2/install/evaluation/share/ament_index
+creating /home/charlie/traversability_analysis_ws_ros2/install/evaluation/share/ament_index/resource_index
+creating /home/charlie/traversability_analysis_ws_ros2/install/evaluation/share/ament_index/resource_index/packages
+copying resource/evaluation -> /home/charlie/traversability_analysis_ws_ros2/install/evaluation/share/ament_index/resource_index/packages
+copying package.xml -> /home/charlie/traversability_analysis_ws_ros2/install/evaluation/share/evaluation
+copying launch/evaluation.launch.py -> /home/charlie/traversability_analysis_ws_ros2/install/evaluation/share/evaluation
+running install_egg_info
+Copying ../../build/evaluation/evaluation.egg-info to /home/charlie/traversability_analysis_ws_ros2/install/evaluation/lib/python3.8/site-packages/evaluation-0.0.0-py3.8.egg-info
+running install_scripts
+Installing evaluation script to /home/charlie/traversability_analysis_ws_ros2/install/evaluation/lib/evaluation
+writing list of installed files to '/home/charlie/traversability_analysis_ws_ros2/build/evaluation/install.log'

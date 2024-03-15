@@ -1,0 +1,72 @@
+[0.011s] Invoking command in '/home/charlie/traversability_analysis_ws_ros2/build/husky_gazebo': CMAKE_PREFIX_PATH=/home/charlie/traversability_analysis_ws_ros2/install/husky_control:/home/charlie/traversability_analysis_ws_ros2/install/husky_description:/home/charlie/traversability_analysis_ws_ros2/install/husky_desktop:/home/charlie/traversability_analysis_ws_ros2/install/husky_viz:/home/charlie/traversability_analysis_ws_ros2/install/husky_simulator:/home/charlie/traversability_analysis_ws_ros2/install/husky_robot:/home/charlie/traversability_analysis_ws_ros2/install/husky_bringup:/home/charlie/traversability_analysis_ws_ros2/install/husky_base:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs:/home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/opt/ros/foxy /usr/bin/cmake /home/charlie/traversability_analysis_ws_ros2/src/husky/husky_gazebo -DCMAKE_INSTALL_PREFIX=/home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo
+[0.047s] -- The C compiler identification is GNU 9.4.0
+[0.087s] -- The CXX compiler identification is GNU 9.4.0
+[0.090s] -- Check for working C compiler: /usr/bin/cc
+[0.133s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.134s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.185s] -- Detecting C compile features
+[0.185s] -- Detecting C compile features - done
+[0.186s] -- Check for working CXX compiler: /usr/bin/c++
+[0.239s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.240s] -- Detecting CXX compiler ABI info
+[0.293s] -- Detecting CXX compiler ABI info - done
+[0.301s] -- Detecting CXX compile features
+[0.301s] -- Detecting CXX compile features - done
+[0.303s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.324s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.324s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.633s] -- Found urdf: 2.4.0 (/opt/ros/foxy/share/urdf/cmake)
+[0.660s] -- Found xacro: 2.0.7 (/opt/ros/foxy/share/xacro/cmake)
+[0.701s] -- Configuring done
+[0.702s] -- Generating done
+[0.703s] -- Build files have been written to: /home/charlie/traversability_analysis_ws_ros2/build/husky_gazebo
+[0.707s] Invoked command in '/home/charlie/traversability_analysis_ws_ros2/build/husky_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/charlie/traversability_analysis_ws_ros2/install/husky_control:/home/charlie/traversability_analysis_ws_ros2/install/husky_description:/home/charlie/traversability_analysis_ws_ros2/install/husky_desktop:/home/charlie/traversability_analysis_ws_ros2/install/husky_viz:/home/charlie/traversability_analysis_ws_ros2/install/husky_simulator:/home/charlie/traversability_analysis_ws_ros2/install/husky_robot:/home/charlie/traversability_analysis_ws_ros2/install/husky_bringup:/home/charlie/traversability_analysis_ws_ros2/install/husky_base:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs:/home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/opt/ros/foxy /usr/bin/cmake /home/charlie/traversability_analysis_ws_ros2/src/husky/husky_gazebo -DCMAKE_INSTALL_PREFIX=/home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo
+[0.710s] Invoking command in '/home/charlie/traversability_analysis_ws_ros2/build/husky_gazebo': CMAKE_PREFIX_PATH=/home/charlie/traversability_analysis_ws_ros2/install/husky_control:/home/charlie/traversability_analysis_ws_ros2/install/husky_description:/home/charlie/traversability_analysis_ws_ros2/install/husky_desktop:/home/charlie/traversability_analysis_ws_ros2/install/husky_viz:/home/charlie/traversability_analysis_ws_ros2/install/husky_simulator:/home/charlie/traversability_analysis_ws_ros2/install/husky_robot:/home/charlie/traversability_analysis_ws_ros2/install/husky_bringup:/home/charlie/traversability_analysis_ws_ros2/install/husky_base:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs:/home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/opt/ros/foxy /usr/bin/cmake --build /home/charlie/traversability_analysis_ws_ros2/build/husky_gazebo -- -j16 -l16
+[0.739s] Invoked command in '/home/charlie/traversability_analysis_ws_ros2/build/husky_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/charlie/traversability_analysis_ws_ros2/install/husky_control:/home/charlie/traversability_analysis_ws_ros2/install/husky_description:/home/charlie/traversability_analysis_ws_ros2/install/husky_desktop:/home/charlie/traversability_analysis_ws_ros2/install/husky_viz:/home/charlie/traversability_analysis_ws_ros2/install/husky_simulator:/home/charlie/traversability_analysis_ws_ros2/install/husky_robot:/home/charlie/traversability_analysis_ws_ros2/install/husky_bringup:/home/charlie/traversability_analysis_ws_ros2/install/husky_base:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs:/home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/opt/ros/foxy /usr/bin/cmake --build /home/charlie/traversability_analysis_ws_ros2/build/husky_gazebo -- -j16 -l16
+[0.764s] Invoking command in '/home/charlie/traversability_analysis_ws_ros2/build/husky_gazebo': CMAKE_PREFIX_PATH=/home/charlie/traversability_analysis_ws_ros2/install/husky_control:/home/charlie/traversability_analysis_ws_ros2/install/husky_description:/home/charlie/traversability_analysis_ws_ros2/install/husky_desktop:/home/charlie/traversability_analysis_ws_ros2/install/husky_viz:/home/charlie/traversability_analysis_ws_ros2/install/husky_simulator:/home/charlie/traversability_analysis_ws_ros2/install/husky_robot:/home/charlie/traversability_analysis_ws_ros2/install/husky_bringup:/home/charlie/traversability_analysis_ws_ros2/install/husky_base:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs:/home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/opt/ros/foxy /usr/bin/cmake --install /home/charlie/traversability_analysis_ws_ros2/build/husky_gazebo
+[0.770s] -- Install configuration: ""
+[0.770s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/launch
+[0.770s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/launch/custom_world.launch.py
+[0.770s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/launch/realsense.launch
+[0.770s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/launch/husky_playpen.launch.py
+[0.770s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/launch/spawn_husky.launch
+[0.770s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/launch/gazebo.launch.py
+[0.770s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/launch/husky_empty_world.launch
+[0.770s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/launch/playpen.launch
+[0.770s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/launch/multi_husky_playpen.launch
+[0.771s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/worlds
+[0.771s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/worlds/staircase_world.world
+[0.771s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/worlds/empty_world.world
+[0.771s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/worlds/heightmaps
+[0.771s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/worlds/heightmaps/bars.png
+[0.771s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/worlds/heightmaps/heightmap.png
+[0.771s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/worlds/heightmaps/holes1.png
+[0.771s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/worlds/heightmaps/steps2.png
+[0.771s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/worlds/heightmaps/slope_rocks2.png
+[0.771s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/worlds/heightmaps/steps1.png
+[0.771s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/worlds/heightmaps/textures
+[0.771s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/worlds/heightmaps/textures/normal
+[0.771s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/worlds/heightmaps/textures/normal/soil_normal.png
+[0.785s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/worlds/heightmaps/textures/normal/dirt_normal.png
+[0.787s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/worlds/heightmaps/textures/diffuse
+[0.787s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/worlds/heightmaps/textures/diffuse/dirt_diffusespecular.png
+[0.789s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/worlds/heightmaps/textures/diffuse/soil_diffuse.png
+[0.810s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/worlds/heightmap_world.world
+[0.810s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/worlds/clearpath_playpen.world
+[0.810s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/ament_index/resource_index/package_run_dependencies/husky_gazebo
+[0.810s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/ament_index/resource_index/parent_prefix_path/husky_gazebo
+[0.810s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/environment/ament_prefix_path.sh
+[0.810s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/environment/ament_prefix_path.dsv
+[0.810s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/environment/path.sh
+[0.810s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/environment/path.dsv
+[0.811s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/local_setup.bash
+[0.811s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/local_setup.sh
+[0.811s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/local_setup.zsh
+[0.811s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/local_setup.dsv
+[0.811s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/package.dsv
+[0.811s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/ament_index/resource_index/packages/husky_gazebo
+[0.811s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/cmake/husky_gazeboConfig.cmake
+[0.811s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/cmake/husky_gazeboConfig-version.cmake
+[0.811s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo/share/husky_gazebo/package.xml
+[0.817s] Invoked command in '/home/charlie/traversability_analysis_ws_ros2/build/husky_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/charlie/traversability_analysis_ws_ros2/install/husky_control:/home/charlie/traversability_analysis_ws_ros2/install/husky_description:/home/charlie/traversability_analysis_ws_ros2/install/husky_desktop:/home/charlie/traversability_analysis_ws_ros2/install/husky_viz:/home/charlie/traversability_analysis_ws_ros2/install/husky_simulator:/home/charlie/traversability_analysis_ws_ros2/install/husky_robot:/home/charlie/traversability_analysis_ws_ros2/install/husky_bringup:/home/charlie/traversability_analysis_ws_ros2/install/husky_base:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs:/home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/opt/ros/foxy /usr/bin/cmake --install /home/charlie/traversability_analysis_ws_ros2/build/husky_gazebo

@@ -1,0 +1,12 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/gazebo_map_creator_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/gazebo_map_creator_interface/srv/detail/map_request__type_support.cpp.o"
+  "libgazebo_map_creator_interface__rosidl_typesupport_introspection_cpp.pdb"
+  "libgazebo_map_creator_interface__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/gazebo_map_creator_interface/srv/detail/map_request__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/gazebo_map_creator_interface/srv/detail/map_request__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/gazebo_map_creator_interface__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

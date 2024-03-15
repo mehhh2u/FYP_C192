@@ -1,0 +1,113 @@
+[0.058s] Invoking command in '/home/charlie/traversability_analysis_ws_ros2/build/husky_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/home/charlie/traversability_analysis_ws_ros2/install/evaluation:/home/charlie/traversability_analysis_ws_ros2/install/dataset_generation_training:/opt/ros/foxy /usr/bin/cmake --build /home/charlie/traversability_analysis_ws_ros2/build/husky_msgs -- -j16 -l16
+[0.597s] [  3%] Built target husky_msgs__cpp
+[0.598s] [ 12%] Built target husky_msgs__rosidl_generator_c
+[0.599s] [ 22%] Built target husky_msgs__rosidl_typesupport_c
+[0.599s] [ 32%] Built target husky_msgs__rosidl_typesupport_introspection_c
+[0.599s] [ 41%] Built target husky_msgs__rosidl_typesupport_introspection_cpp
+[0.599s] [ 51%] Built target husky_msgs__rosidl_typesupport_cpp
+[0.599s] [ 61%] Built target husky_msgs__rosidl_typesupport_fastrtps_cpp
+[0.599s] [ 70%] Built target husky_msgs__rosidl_typesupport_fastrtps_c
+[0.599s] [ 70%] Built target husky_msgs
+[0.599s] [ 74%] Built target husky_msgs__py
+[0.599s] [ 80%] Built target husky_msgs__python
+[0.599s] [ 93%] Built target husky_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.599s] [ 93%] Built target husky_msgs__rosidl_typesupport_c__pyext
+[0.599s] [100%] Built target husky_msgs__rosidl_typesupport_introspection_c__pyext
+[0.859s] Invoked command in '/home/charlie/traversability_analysis_ws_ros2/build/husky_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/home/charlie/traversability_analysis_ws_ros2/install/evaluation:/home/charlie/traversability_analysis_ws_ros2/install/dataset_generation_training:/opt/ros/foxy /usr/bin/cmake --build /home/charlie/traversability_analysis_ws_ros2/build/husky_msgs -- -j16 -l16
+[0.910s] Invoking command in '/home/charlie/traversability_analysis_ws_ros2/build/husky_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/home/charlie/traversability_analysis_ws_ros2/install/evaluation:/home/charlie/traversability_analysis_ws_ros2/install/dataset_generation_training:/opt/ros/foxy /usr/bin/cmake --install /home/charlie/traversability_analysis_ws_ros2/build/husky_msgs
+[0.917s] -- Install configuration: ""
+[0.917s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/ament_index/resource_index/rosidl_interfaces/husky_msgs
+[0.917s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs
+[0.917s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg
+[0.917s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/husky_status.h
+[0.917s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail
+[0.917s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail/husky_status__struct.h
+[0.917s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail/husky_status__functions.c
+[0.918s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail/husky_status__functions.h
+[0.918s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail/husky_status__type_support.h
+[0.918s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.918s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/environment/library_path.sh
+[0.918s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/environment/library_path.dsv
+[0.918s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/libhusky_msgs__rosidl_generator_c.so
+[0.918s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs
+[0.918s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg
+[0.918s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail
+[0.918s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail/husky_status__rosidl_typesupport_fastrtps_c.h
+[0.918s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.918s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_fastrtps_c.so
+[0.918s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs
+[0.918s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg
+[0.918s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.919s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail
+[0.919s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail/husky_status__rosidl_typesupport_fastrtps_cpp.hpp
+[0.919s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail/dds_fastrtps
+[0.919s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.919s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs
+[0.919s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg
+[0.926s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.926s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail
+[0.927s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail/husky_status__type_support.c
+[0.927s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail/husky_status__rosidl_typesupport_introspection_c.h
+[0.927s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_introspection_c.so
+[0.927s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_c.so
+[0.927s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs
+[0.927s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg
+[0.927s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/husky_status.hpp
+[0.930s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail
+[0.930s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail/husky_status__struct.hpp
+[0.930s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail/husky_status__builder.hpp
+[0.931s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail/husky_status__traits.hpp
+[0.931s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs
+[0.931s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg
+[0.934s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail
+[0.935s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail/husky_status__type_support.cpp
+[0.935s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/include/husky_msgs/msg/detail/husky_status__rosidl_typesupport_introspection_cpp.hpp
+[0.935s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_introspection_cpp.so
+[0.935s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/libhusky_msgs__rosidl_typesupport_cpp.so
+[0.935s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/environment/pythonpath.sh
+[0.936s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/environment/pythonpath.dsv
+[0.936s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/python3.8/site-packages/husky_msgs/__init__.py
+[0.944s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/python3.8/site-packages/husky_msgs/msg
+[0.944s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/python3.8/site-packages/husky_msgs/msg/_husky_status.py
+[0.944s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/python3.8/site-packages/husky_msgs/msg/_husky_status_s.c
+[0.944s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/python3.8/site-packages/husky_msgs/msg/__init__.py
+[0.944s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/python3.8/site-packages/husky_msgs/husky_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.944s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/python3.8/site-packages/husky_msgs/husky_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.944s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/python3.8/site-packages/husky_msgs/husky_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.946s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/libhusky_msgs__python.so
+[0.946s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/msg/HuskyStatus.idl
+[0.946s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/msg/HuskyStatus.msg
+[0.946s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/ament_index/resource_index/package_run_dependencies/husky_msgs
+[0.946s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/ament_index/resource_index/parent_prefix_path/husky_msgs
+[0.946s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/environment/ament_prefix_path.sh
+[0.946s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/environment/ament_prefix_path.dsv
+[0.946s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/environment/path.sh
+[0.946s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/environment/path.dsv
+[0.946s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/local_setup.bash
+[0.946s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/local_setup.sh
+[0.947s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/local_setup.zsh
+[0.947s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/local_setup.dsv
+[0.947s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/package.dsv
+[0.947s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/ament_index/resource_index/packages/husky_msgs
+[0.947s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_generator_cExport.cmake
+[0.947s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_generator_cExport-noconfig.cmake
+[0.947s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_introspection_cExport.cmake
+[0.947s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.947s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_cExport.cmake
+[0.947s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[0.947s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_generator_cppExport.cmake
+[0.947s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[0.947s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.948s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_cppExport.cmake
+[0.948s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/husky_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[0.948s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/rosidl_cmake-extras.cmake
+[0.948s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.948s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.948s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[0.948s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.948s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.948s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.948s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/husky_msgsConfig.cmake
+[0.948s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/cmake/husky_msgsConfig-version.cmake
+[0.948s] -- Up-to-date: /home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/share/husky_msgs/package.xml
+[1.016s] Invoked command in '/home/charlie/traversability_analysis_ws_ros2/build/husky_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/home/charlie/traversability_analysis_ws_ros2/install/evaluation:/home/charlie/traversability_analysis_ws_ros2/install/dataset_generation_training:/opt/ros/foxy /usr/bin/cmake --install /home/charlie/traversability_analysis_ws_ros2/build/husky_msgs

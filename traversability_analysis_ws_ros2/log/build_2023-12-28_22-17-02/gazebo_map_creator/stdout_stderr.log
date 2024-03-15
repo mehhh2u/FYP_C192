@@ -1,0 +1,240 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+-- Found FastRTPS: /opt/ros/foxy/include  
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)
+-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+-- Checking for module 'bullet>=2.82'
+--   Found bullet, version 2.88
+-- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+-- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+-- Found assimp: /usr/include (found version "5.0.0") 
+-- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+-- Looking for ignition-math6 -- found version 6.15.0
+-- Searching for dependencies of ignition-math6
+-- Looking for OGRE...
+-- OGRE_PREFIX_WATCH changed.
+-- Checking for module 'OGRE'
+--   Found OGRE, version 1.9.0
+-- Found Ogre Ghadamon (1.9.0)
+-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+-- Looking for OGRE_Paging...
+-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+-- Looking for OGRE_Terrain...
+-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+-- Looking for OGRE_Property...
+-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+-- Looking for OGRE_RTShaderSystem...
+-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+-- Looking for OGRE_Volume...
+-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+-- Looking for OGRE_Overlay...
+-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+-- Looking for ignition-math6 -- found version 6.15.0
+-- Looking for ignition-transport8 -- found version 8.4.0
+-- Searching for dependencies of ignition-transport8
+-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+-- Config-file not installed for ZeroMQ -- checking for pkg-config
+-- Checking for module 'libzmq >= 4'
+--   Found libzmq , version 4.3.2
+-- Found ZeroMQ: TRUE (Required is at least version "4") 
+-- Checking for module 'uuid'
+--   Found uuid, version 2.34.0
+-- Found UUID: TRUE  
+-- Looking for ignition-msgs5 -- found version 5.11.0
+-- Searching for dependencies of ignition-msgs5
+-- Looking for ignition-math6 -- found version 6.15.0
+-- Checking for module 'tinyxml2'
+--   Found tinyxml2, version 6.2.0
+-- Looking for ignition-msgs5 -- found version 5.11.0
+-- Looking for ignition-common3 -- found version 3.16.0
+-- Searching for dependencies of ignition-common3
+-- Looking for dlfcn.h - found
+-- Looking for libdl - found
+-- Found DL: TRUE  
+-- Searching for <ignition-common3> component [graphics]
+-- Looking for ignition-common3-graphics -- found version 3.16.0
+-- Searching for dependencies of ignition-common3-graphics
+-- Looking for ignition-math6 -- found version 6.15.0
+-- Looking for ignition-fuel_tools4 -- found version 4.9.0
+-- Searching for dependencies of ignition-fuel_tools4
+-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+-- Checking for module 'jsoncpp'
+--   Found jsoncpp, version 1.7.4
+-- Found JSONCPP: TRUE  
+-- Checking for module 'libzip'
+--   Found libzip, version 1.5.1
+-- Found ZIP: TRUE  
+-- Looking for ignition-common3 -- found version 3.16.0
+-- Looking for ignition-math6 -- found version 6.15.0
+-- Looking for ignition-msgs5 -- found version 5.11.0
+-- Gazebo version: 11.14
+-- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found Threads: TRUE  
+-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+-- Found gazebo_map_creator_interface: 3.5.3 (/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake)
+-- Found rclpy: 1.0.11 (/opt/ros/foxy/share/rclpy/cmake)
+-- Checking for module 'eigen3'
+--   Found eigen3, version 3.3.7
+-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+-- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+-- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+-- Checking for module 'flann'
+--   Found flann, version 1.9.1
+-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+-- The imported target "vtkParseOGLExt" references the file
+   "/usr/bin/vtkParseOGLExt-7.1"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtkRenderingPythonTkWidgets" references the file
+   "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "vtk" references the file
+   "/usr/bin/vtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- The imported target "pvtk" references the file
+   "/usr/bin/pvtk"
+but this file does not exist.  Possible reasons include:
+* The file was deleted, renamed, or moved to another location.
+* An install or uninstall procedure did not complete successfully.
+* The installation package was faulty and contained
+   "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+but not all the files it references.
+
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.23
+-- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- Found OpenNI: /usr/lib/libOpenNI.so  
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- Found OpenNI2: /usr/lib/libOpenNI2.so  
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+-- Found libusb-1.0: /usr/include  
+** WARNING ** io features related to libusb-1.0 will be disabled
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+-- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- looking for PCL_KDTREE
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- looking for PCL_OCTREE
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- looking for PCL_SEARCH
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- looking for PCL_SAMPLE_CONSENSUS
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- looking for PCL_FILTERS
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- looking for PCL_2D
+-- Found PCL_2D: /usr/include/pcl-1.10  
+-- looking for PCL_GEOMETRY
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+-- looking for PCL_IO
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- looking for PCL_FEATURES
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- looking for PCL_ML
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- looking for PCL_SEGMENTATION
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- looking for PCL_VISUALIZATION
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- looking for PCL_SURFACE
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- looking for PCL_REGISTRATION
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- looking for PCL_KEYPOINTS
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- looking for PCL_TRACKING
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- looking for PCL_RECOGNITION
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- looking for PCL_STEREO
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- looking for PCL_APPS
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- looking for PCL_IN_HAND_SCANNER
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+-- looking for PCL_OUTOFCORE
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- looking for PCL_PEOPLE
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN (Required is at least version "1.2") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator
+[35m[1mScanning dependencies of target gazebo_map_creator[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/gazebo_map_creator.dir/src/gazbeo_map_creator.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libgazebo_map_creator.so[0m
+[100%] Built target gazebo_map_creator
+-- Install configuration: ""
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/environment/library_path.sh
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/environment/library_path.dsv
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/scripts
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/scripts/request_map.py
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/lib/libgazebo_map_creator.so
+-- Set runtime path of "/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/lib/libgazebo_map_creator.so" to ""
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/lib/gazebo_map_creator/request_map.py
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/ament_index/resource_index/package_run_dependencies/gazebo_map_creator
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/ament_index/resource_index/parent_prefix_path/gazebo_map_creator
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/environment/ament_prefix_path.sh
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/environment/ament_prefix_path.dsv
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/environment/path.sh
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/environment/path.dsv
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/local_setup.bash
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/local_setup.sh
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/local_setup.zsh
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/local_setup.dsv
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/package.dsv
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/ament_index/resource_index/packages/gazebo_map_creator
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/cmake/gazebo_map_creatorConfig.cmake
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/cmake/gazebo_map_creatorConfig-version.cmake
+-- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/package.xml

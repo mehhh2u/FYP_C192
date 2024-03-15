@@ -1,0 +1,4 @@
+source;share/gazebo_map_creator/local_setup.bash
+source;share/gazebo_map_creator/local_setup.dsv
+source;share/gazebo_map_creator/local_setup.sh
+source;share/gazebo_map_creator/local_setup.zsh

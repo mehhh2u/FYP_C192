@@ -1,0 +1,246 @@
+[0.012s] Invoking command in '/home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator': CMAKE_PREFIX_PATH=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface:/home/charlie/traversability_analysis_ws_ros2/install/husky_desktop:/home/charlie/traversability_analysis_ws_ros2/install/husky_viz:/home/charlie/traversability_analysis_ws_ros2/install/husky_simulator:/home/charlie/traversability_analysis_ws_ros2/install/husky_robot:/home/charlie/traversability_analysis_ws_ros2/install/husky_bringup:/home/charlie/traversability_analysis_ws_ros2/install/husky_base:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs:/home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo:/home/charlie/traversability_analysis_ws_ros2/install/husky_control:/home/charlie/traversability_analysis_ws_ros2/install/husky_description:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/opt/ros/foxy LD_LIBRARY_PATH=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib:/home/charlie/traversability_analysis_ws_ros2/install/husky_base/lib:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.3/lib64 PYTHONPATH=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/python3.8/site-packages:/home/charlie/traversability_analysis_ws_ros2/install/simulation/lib/python3.8/site-packages:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/charlie/traversability_analysis_ws_ros2/src/gazebo_map_creator/gazebo_map_creator -DCMAKE_INSTALL_PREFIX=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator
+[0.048s] -- The C compiler identification is GNU 9.4.0
+[0.082s] -- The CXX compiler identification is GNU 9.4.0
+[0.085s] -- Check for working C compiler: /usr/bin/cc
+[0.129s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.129s] -- Detecting C compiler ABI info
+[0.177s] -- Detecting C compiler ABI info - done
+[0.185s] -- Detecting C compile features
+[0.186s] -- Detecting C compile features - done
+[0.187s] -- Check for working CXX compiler: /usr/bin/c++
+[0.240s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.241s] -- Detecting CXX compiler ABI info
+[0.292s] -- Detecting CXX compiler ABI info - done
+[0.299s] -- Detecting CXX compile features
+[0.299s] -- Detecting CXX compile features - done
+[0.301s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.317s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.317s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.490s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.514s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.564s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.583s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.640s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.659s] -- Found gazebo_dev: 3.5.3 (/opt/ros/foxy/share/gazebo_dev/cmake)
+[0.663s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[0.665s] -- Checking for module 'bullet>=2.82'
+[0.676s] --   Found bullet, version 2.88
+[0.752s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[0.789s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[0.825s] -- Found assimp: /usr/include (found version "5.0.0") 
+[0.841s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.028s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[1.040s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[1.044s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.048s] -- Searching for dependencies of ignition-math6
+[1.049s] -- Looking for OGRE...
+[1.050s] -- OGRE_PREFIX_WATCH changed.
+[1.053s] -- Checking for module 'OGRE'
+[1.063s] --   Found OGRE, version 1.9.0
+[1.087s] -- Found Ogre Ghadamon (1.9.0)
+[1.093s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.100s] -- Looking for OGRE_Paging...
+[1.104s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.104s] -- Looking for OGRE_Terrain...
+[1.108s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.108s] -- Looking for OGRE_Property...
+[1.113s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.113s] -- Looking for OGRE_RTShaderSystem...
+[1.117s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.117s] -- Looking for OGRE_Volume...
+[1.121s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.121s] -- Looking for OGRE_Overlay...
+[1.126s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.218s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.220s] -- Looking for ignition-transport8 -- found version 8.4.0
+[1.220s] -- Searching for dependencies of ignition-transport8
+[1.232s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[1.240s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.242s] -- Checking for module 'libzmq >= 4'
+[1.253s] --   Found libzmq , version 4.3.2
+[1.277s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.281s] -- Checking for module 'uuid'
+[1.290s] --   Found uuid, version 2.34.0
+[1.314s] -- Found UUID: TRUE  
+[1.316s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.316s] -- Searching for dependencies of ignition-msgs5
+[1.329s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.332s] -- Checking for module 'tinyxml2'
+[1.342s] --   Found tinyxml2, version 6.2.0
+[1.366s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.367s] -- Looking for ignition-common3 -- found version 3.16.0
+[1.368s] -- Searching for dependencies of ignition-common3
+[1.368s] -- Looking for dlfcn.h - found
+[1.369s] -- Looking for libdl - found
+[1.370s] -- Found DL: TRUE  
+[1.375s] -- Searching for <ignition-common3> component [graphics]
+[1.377s] -- Looking for ignition-common3-graphics -- found version 3.16.0
+[1.377s] -- Searching for dependencies of ignition-common3-graphics
+[1.377s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.379s] -- Looking for ignition-fuel_tools4 -- found version 4.9.0
+[1.379s] -- Searching for dependencies of ignition-fuel_tools4
+[1.427s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.68.0")  
+[1.432s] -- Checking for module 'jsoncpp'
+[1.441s] --   Found jsoncpp, version 1.7.4
+[1.465s] -- Found JSONCPP: TRUE  
+[1.470s] -- Checking for module 'libzip'
+[1.479s] --   Found libzip, version 1.5.1
+[1.505s] -- Found ZIP: TRUE  
+[1.505s] -- Looking for ignition-common3 -- found version 3.16.0
+[1.505s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.505s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[1.505s] -- Gazebo version: 11.14
+[1.507s] -- Found gazebo_ros: 3.5.3 (/opt/ros/foxy/share/gazebo_ros/cmake)
+[1.538s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.539s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.540s] -- Found Threads: TRUE  
+[1.676s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[1.700s] -- Found gazebo_map_creator_interface: 3.5.3 (/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/share/gazebo_map_creator_interface/cmake)
+[1.747s] -- Found rclpy: 1.0.11 (/opt/ros/foxy/share/rclpy/cmake)
+[1.757s] -- Checking for module 'eigen3'
+[1.772s] --   Found eigen3, version 3.3.7
+[1.825s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.825s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[1.845s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[1.857s] -- Checking for module 'flann'
+[1.869s] --   Found flann, version 1.9.1
+[1.898s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.934s] -- The imported target "vtkParseOGLExt" references the file
+[1.934s]    "/usr/bin/vtkParseOGLExt-7.1"
+[1.934s] but this file does not exist.  Possible reasons include:
+[1.934s] * The file was deleted, renamed, or moved to another location.
+[1.934s] * An install or uninstall procedure did not complete successfully.
+[1.934s] * The installation package was faulty and contained
+[1.934s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.935s] but not all the files it references.
+[1.935s] 
+[1.935s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[1.935s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[1.935s] but this file does not exist.  Possible reasons include:
+[1.935s] * The file was deleted, renamed, or moved to another location.
+[1.935s] * An install or uninstall procedure did not complete successfully.
+[1.935s] * The installation package was faulty and contained
+[1.935s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.935s] but not all the files it references.
+[1.935s] 
+[1.935s] -- The imported target "vtk" references the file
+[1.935s]    "/usr/bin/vtk"
+[1.935s] but this file does not exist.  Possible reasons include:
+[1.935s] * The file was deleted, renamed, or moved to another location.
+[1.936s] * An install or uninstall procedure did not complete successfully.
+[1.936s] * The installation package was faulty and contained
+[1.936s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.936s] but not all the files it references.
+[1.936s] 
+[1.936s] -- The imported target "pvtk" references the file
+[1.936s]    "/usr/bin/pvtk"
+[1.936s] but this file does not exist.  Possible reasons include:
+[1.936s] * The file was deleted, renamed, or moved to another location.
+[1.936s] * An install or uninstall procedure did not complete successfully.
+[1.936s] * The installation package was faulty and contained
+[1.936s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[1.936s] but not all the files it references.
+[1.936s] 
+[1.948s] -- Checking for module 'libusb-1.0'
+[1.959s] --   Found libusb-1.0, version 1.0.23
+[1.986s] -- Found USB_10: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.023s] -- Found OpenNI: /usr/lib/libOpenNI.so  
+[2.023s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.063s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[2.063s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.063s] ** WARNING ** io features related to pcap will be disabled
+[2.063s] ** WARNING ** io features related to png will be disabled
+[2.072s] -- Found libusb-1.0: /usr/include  
+[2.072s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[2.076s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.081s] -- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+[2.100s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[2.100s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[2.104s] -- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+[2.112s] -- looking for PCL_COMMON
+[2.113s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[2.113s] -- looking for PCL_KDTREE
+[2.114s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[2.114s] -- looking for PCL_OCTREE
+[2.114s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[2.115s] -- looking for PCL_SEARCH
+[2.115s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[2.116s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.116s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[2.116s] -- looking for PCL_FILTERS
+[2.117s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[2.117s] -- looking for PCL_2D
+[2.117s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[2.117s] -- looking for PCL_GEOMETRY
+[2.118s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[2.118s] -- looking for PCL_IO
+[2.118s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[2.119s] -- looking for PCL_FEATURES
+[2.119s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[2.119s] -- looking for PCL_ML
+[2.120s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[2.120s] -- looking for PCL_SEGMENTATION
+[2.121s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[2.121s] -- looking for PCL_VISUALIZATION
+[2.122s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[2.122s] -- looking for PCL_SURFACE
+[2.123s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[2.123s] -- looking for PCL_REGISTRATION
+[2.124s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[2.124s] -- looking for PCL_KEYPOINTS
+[2.124s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[2.125s] -- looking for PCL_TRACKING
+[2.125s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[2.125s] -- looking for PCL_RECOGNITION
+[2.126s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[2.126s] -- looking for PCL_STEREO
+[2.128s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[2.128s] -- looking for PCL_APPS
+[2.129s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[2.129s] -- looking for PCL_IN_HAND_SCANNER
+[2.129s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[2.129s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.130s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[2.130s] -- looking for PCL_OUTOFCORE
+[2.131s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[2.131s] -- looking for PCL_PEOPLE
+[2.131s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[2.132s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.71.0;/usr/lib/x86_64-linux-gnu/libboost_regex.so.1.71.0;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN (Required is at least version "1.2") 
+[2.191s] -- Configuring done
+[2.227s] -- Generating done
+[2.229s] -- Build files have been written to: /home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator
+[2.240s] Invoked command in '/home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator' returned '0': CMAKE_PREFIX_PATH=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface:/home/charlie/traversability_analysis_ws_ros2/install/husky_desktop:/home/charlie/traversability_analysis_ws_ros2/install/husky_viz:/home/charlie/traversability_analysis_ws_ros2/install/husky_simulator:/home/charlie/traversability_analysis_ws_ros2/install/husky_robot:/home/charlie/traversability_analysis_ws_ros2/install/husky_bringup:/home/charlie/traversability_analysis_ws_ros2/install/husky_base:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs:/home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo:/home/charlie/traversability_analysis_ws_ros2/install/husky_control:/home/charlie/traversability_analysis_ws_ros2/install/husky_description:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/opt/ros/foxy LD_LIBRARY_PATH=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib:/home/charlie/traversability_analysis_ws_ros2/install/husky_base/lib:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.3/lib64 PYTHONPATH=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/python3.8/site-packages:/home/charlie/traversability_analysis_ws_ros2/install/simulation/lib/python3.8/site-packages:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake /home/charlie/traversability_analysis_ws_ros2/src/gazebo_map_creator/gazebo_map_creator -DCMAKE_INSTALL_PREFIX=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator
+[2.242s] Invoking command in '/home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator': CMAKE_PREFIX_PATH=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface:/home/charlie/traversability_analysis_ws_ros2/install/husky_desktop:/home/charlie/traversability_analysis_ws_ros2/install/husky_viz:/home/charlie/traversability_analysis_ws_ros2/install/husky_simulator:/home/charlie/traversability_analysis_ws_ros2/install/husky_robot:/home/charlie/traversability_analysis_ws_ros2/install/husky_bringup:/home/charlie/traversability_analysis_ws_ros2/install/husky_base:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs:/home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo:/home/charlie/traversability_analysis_ws_ros2/install/husky_control:/home/charlie/traversability_analysis_ws_ros2/install/husky_description:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/opt/ros/foxy LD_LIBRARY_PATH=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib:/home/charlie/traversability_analysis_ws_ros2/install/husky_base/lib:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.3/lib64 PYTHONPATH=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/python3.8/site-packages:/home/charlie/traversability_analysis_ws_ros2/install/simulation/lib/python3.8/site-packages:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator -- -j16 -l16
+[2.270s] [35m[1mScanning dependencies of target gazebo_map_creator[0m
+[2.365s] [ 50%] [32mBuilding CXX object CMakeFiles/gazebo_map_creator.dir/src/gazbeo_map_creator.cpp.o[0m
+[12.499s] [100%] [32m[1mLinking CXX shared library libgazebo_map_creator.so[0m
+[13.036s] [100%] Built target gazebo_map_creator
+[13.045s] Invoked command in '/home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator' returned '0': CMAKE_PREFIX_PATH=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface:/home/charlie/traversability_analysis_ws_ros2/install/husky_desktop:/home/charlie/traversability_analysis_ws_ros2/install/husky_viz:/home/charlie/traversability_analysis_ws_ros2/install/husky_simulator:/home/charlie/traversability_analysis_ws_ros2/install/husky_robot:/home/charlie/traversability_analysis_ws_ros2/install/husky_bringup:/home/charlie/traversability_analysis_ws_ros2/install/husky_base:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs:/home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo:/home/charlie/traversability_analysis_ws_ros2/install/husky_control:/home/charlie/traversability_analysis_ws_ros2/install/husky_description:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/opt/ros/foxy LD_LIBRARY_PATH=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib:/home/charlie/traversability_analysis_ws_ros2/install/husky_base/lib:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.3/lib64 PYTHONPATH=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/python3.8/site-packages:/home/charlie/traversability_analysis_ws_ros2/install/simulation/lib/python3.8/site-packages:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --build /home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator -- -j16 -l16
+[13.072s] Invoking command in '/home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator': CMAKE_PREFIX_PATH=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface:/home/charlie/traversability_analysis_ws_ros2/install/husky_desktop:/home/charlie/traversability_analysis_ws_ros2/install/husky_viz:/home/charlie/traversability_analysis_ws_ros2/install/husky_simulator:/home/charlie/traversability_analysis_ws_ros2/install/husky_robot:/home/charlie/traversability_analysis_ws_ros2/install/husky_bringup:/home/charlie/traversability_analysis_ws_ros2/install/husky_base:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs:/home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo:/home/charlie/traversability_analysis_ws_ros2/install/husky_control:/home/charlie/traversability_analysis_ws_ros2/install/husky_description:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/opt/ros/foxy LD_LIBRARY_PATH=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib:/home/charlie/traversability_analysis_ws_ros2/install/husky_base/lib:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.3/lib64 PYTHONPATH=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/python3.8/site-packages:/home/charlie/traversability_analysis_ws_ros2/install/simulation/lib/python3.8/site-packages:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator
+[13.087s] -- Install configuration: ""
+[13.087s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/environment/library_path.sh
+[13.087s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/environment/library_path.dsv
+[13.087s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/scripts
+[13.087s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/scripts/request_map.py
+[13.087s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/lib/libgazebo_map_creator.so
+[13.089s] -- Set runtime path of "/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/lib/libgazebo_map_creator.so" to ""
+[13.089s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/lib/gazebo_map_creator/request_map.py
+[13.090s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/ament_index/resource_index/package_run_dependencies/gazebo_map_creator
+[13.090s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/ament_index/resource_index/parent_prefix_path/gazebo_map_creator
+[13.090s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/environment/ament_prefix_path.sh
+[13.090s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/environment/ament_prefix_path.dsv
+[13.090s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/environment/path.sh
+[13.090s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/environment/path.dsv
+[13.090s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/local_setup.bash
+[13.090s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/local_setup.sh
+[13.090s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/local_setup.zsh
+[13.090s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/local_setup.dsv
+[13.090s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/package.dsv
+[13.090s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/ament_index/resource_index/packages/gazebo_map_creator
+[13.090s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/cmake/ament_cmake_export_libraries-extras.cmake
+[13.090s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.090s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/cmake/gazebo_map_creatorConfig.cmake
+[13.090s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/cmake/gazebo_map_creatorConfig-version.cmake
+[13.090s] -- Installing: /home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/share/gazebo_map_creator/package.xml
+[13.092s] Invoked command in '/home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator' returned '0': CMAKE_PREFIX_PATH=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface:/home/charlie/traversability_analysis_ws_ros2/install/husky_desktop:/home/charlie/traversability_analysis_ws_ros2/install/husky_viz:/home/charlie/traversability_analysis_ws_ros2/install/husky_simulator:/home/charlie/traversability_analysis_ws_ros2/install/husky_robot:/home/charlie/traversability_analysis_ws_ros2/install/husky_bringup:/home/charlie/traversability_analysis_ws_ros2/install/husky_base:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs:/home/charlie/traversability_analysis_ws_ros2/install/husky_gazebo:/home/charlie/traversability_analysis_ws_ros2/install/husky_control:/home/charlie/traversability_analysis_ws_ros2/install/husky_description:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator:/home/charlie/traversability_analysis_ws_ros2/install/simulation:/opt/ros/foxy LD_LIBRARY_PATH=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib:/home/charlie/traversability_analysis_ws_ros2/install/husky_base/lib:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib:/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/usr/local/cuda-11.3/lib64 PYTHONPATH=/home/charlie/traversability_analysis_ws_ros2/install/gazebo_map_creator_interface/lib/python3.8/site-packages:/home/charlie/traversability_analysis_ws_ros2/install/simulation/lib/python3.8/site-packages:/home/charlie/traversability_analysis_ws_ros2/install/husky_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/cmake --install /home/charlie/traversability_analysis_ws_ros2/build/gazebo_map_creator

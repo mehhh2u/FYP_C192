@@ -1,0 +1,6 @@
+{
+  "package_name": "gazebo_map_creator_interface",
+  "non_idl_tuples": [
+    "/home/charlie/traversability_analysis_ws_ros2/src/gazebo_map_creator/gazebo_map_creator_interface:srv/MapRequest.srv"
+  ]
+}

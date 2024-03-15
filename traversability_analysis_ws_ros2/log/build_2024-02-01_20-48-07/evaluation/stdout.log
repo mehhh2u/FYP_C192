@@ -1,0 +1,20 @@
+running egg_info
+writing ../../build/evaluation/evaluation.egg-info/PKG-INFO
+writing dependency_links to ../../build/evaluation/evaluation.egg-info/dependency_links.txt
+writing entry points to ../../build/evaluation/evaluation.egg-info/entry_points.txt
+writing requirements to ../../build/evaluation/evaluation.egg-info/requires.txt
+writing top-level names to ../../build/evaluation/evaluation.egg-info/top_level.txt
+reading manifest file '../../build/evaluation/evaluation.egg-info/SOURCES.txt'
+writing manifest file '../../build/evaluation/evaluation.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying launch/evaluation.launch.py -> /home/charlie/traversability_analysis_ws_ros2/install/evaluation/share/evaluation
+running install_egg_info
+removing '/home/charlie/traversability_analysis_ws_ros2/install/evaluation/lib/python3.8/site-packages/evaluation-0.0.0-py3.8.egg-info' (and everything under it)
+Copying ../../build/evaluation/evaluation.egg-info to /home/charlie/traversability_analysis_ws_ros2/install/evaluation/lib/python3.8/site-packages/evaluation-0.0.0-py3.8.egg-info
+running install_scripts
+Installing evaluation script to /home/charlie/traversability_analysis_ws_ros2/install/evaluation/lib/evaluation
+writing list of installed files to '/home/charlie/traversability_analysis_ws_ros2/build/evaluation/install.log'

@@ -1,0 +1,25 @@
+[1.174s] Invoking command in '/home/charlie/traversability_analysis_ws_ros2/src/dataset_generation_training': PYTHONPATH=/home/charlie/traversability_analysis_ws_ros2/build/dataset_generation_training/prefix_override:/home/charlie/traversability_analysis_ws_ros2/install/dataset_generation_training/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dataset_generation_training build --build-base /home/charlie/traversability_analysis_ws_ros2/build/dataset_generation_training/build install --record /home/charlie/traversability_analysis_ws_ros2/build/dataset_generation_training/install.log --install-scripts $base/lib/dataset_generation_training --single-version-externally-managed
+[1.382s] /home/charlie/.local/lib/python3.8/site-packages/setuptools/dist.py:770: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.382s]   warnings.warn(
+[1.457s] running egg_info
+[1.469s] writing ../../build/dataset_generation_training/dataset_generation_training.egg-info/PKG-INFO
+[1.469s] writing dependency_links to ../../build/dataset_generation_training/dataset_generation_training.egg-info/dependency_links.txt
+[1.469s] writing entry points to ../../build/dataset_generation_training/dataset_generation_training.egg-info/entry_points.txt
+[1.470s] writing requirements to ../../build/dataset_generation_training/dataset_generation_training.egg-info/requires.txt
+[1.470s] writing top-level names to ../../build/dataset_generation_training/dataset_generation_training.egg-info/top_level.txt
+[1.493s] reading manifest file '../../build/dataset_generation_training/dataset_generation_training.egg-info/SOURCES.txt'
+[1.494s] writing manifest file '../../build/dataset_generation_training/dataset_generation_training.egg-info/SOURCES.txt'
+[1.494s] running build
+[1.494s] running build_py
+[1.495s] running install
+[1.495s] /home/charlie/.local/lib/python3.8/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.495s]   warnings.warn(
+[1.499s] running install_lib
+[1.511s] running install_data
+[1.522s] running install_egg_info
+[1.534s] removing '/home/charlie/traversability_analysis_ws_ros2/install/dataset_generation_training/lib/python3.8/site-packages/dataset_generation_training-0.0.0-py3.8.egg-info' (and everything under it)
+[1.534s] Copying ../../build/dataset_generation_training/dataset_generation_training.egg-info to /home/charlie/traversability_analysis_ws_ros2/install/dataset_generation_training/lib/python3.8/site-packages/dataset_generation_training-0.0.0-py3.8.egg-info
+[1.535s] running install_scripts
+[1.579s] Installing dataset_generation_training script to /home/charlie/traversability_analysis_ws_ros2/install/dataset_generation_training/lib/dataset_generation_training
+[1.579s] writing list of installed files to '/home/charlie/traversability_analysis_ws_ros2/build/dataset_generation_training/install.log'
+[1.607s] Invoked command in '/home/charlie/traversability_analysis_ws_ros2/src/dataset_generation_training' returned '0': PYTHONPATH=/home/charlie/traversability_analysis_ws_ros2/build/dataset_generation_training/prefix_override:/home/charlie/traversability_analysis_ws_ros2/install/dataset_generation_training/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dataset_generation_training build --build-base /home/charlie/traversability_analysis_ws_ros2/build/dataset_generation_training/build install --record /home/charlie/traversability_analysis_ws_ros2/build/dataset_generation_training/install.log --install-scripts $base/lib/dataset_generation_training --single-version-externally-managed

@@ -1,0 +1,2 @@
+[console_scripts]
+dataset_generation_training = dataset_generation_training.dataset_generation_training:main
